@@ -3,7 +3,7 @@ site_author:
 
 extra:
     materia: SuperComputação
-    professor: Andre Filipe de M. Batista
+    professor: Andre Filipe de M. Batista, Luciano Silva
     semestre: 2022/1
     url_acompanhamentos: http://localhost:8081
     id_curso: 1
@@ -35,11 +35,11 @@ nav:
     - Aulas:
         - "01 - Introdução": aulas/01-introducao/index.ipynb
         - "02 e 03 - C++": aulas/02-03-implementacao-c++/index.md
-        # - "04 - Profiling": aulas/04-profiling/index.md
-        # - "05 - Heurísticas": aulas/05-heuristicas/index.md
-        # - "06 - Aleatorização": aulas/06-aleatorizacao/index.md
-        # - "07 - Busca Local": aulas/07-busca-local/index.md
-        # - "08 - Busca Exaustiva": aulas/08-busca-global/index.md
+        - "04 - Profiling": aulas/04-profiling/index.md
+        - "05 - Heurísticas": aulas/05-heuristicas/index.md
+        - "06 - Aleatorização": aulas/06-aleatorizacao/index.md
+        - "07 - Busca Local": aulas/07-busca-local/index.md
+        - "08 - Busca Exaustiva": aulas/08-busca-global/index.md
         # - "09 - Comparação de desempenho": aulas/09-busca-global-II/index.md
         # - "10 - Branch and Bound": aulas/10-branch-and-bound/index.md
         # - "11 - Paralelismo": aulas/11-paralelismo/index.md
@@ -56,7 +56,7 @@ nav:
 
     - Projeto:
         - projetos/index.md
-        # - projetos/heuristico.md
+        - projetos/heuristico.md
         # - projetos/busca-local.md
         # - projetos/busca-exaustiva.md
         # - projetos/relatorio-1.md        
