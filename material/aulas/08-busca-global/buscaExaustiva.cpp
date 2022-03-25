@@ -41,23 +41,6 @@ double knapSack2(int W, vector<item> items, vector<item>& usados, vector<item>& 
     
 }
 
-// double knapSack(int W, std::vector<item> items){
-//     if(items.empty() || W == 0){
-//         return 0;
-//     }
-//     if(items[0].peso > W){
-//         items.erase(items.begin());
-//         return knapSack(W,items);
-//     }    
-//     else {
-//         double valor = items[0].valor;
-//         double peso = items[0].peso;
-       
-//         items.erase(items.begin());
-//         return max(valor + knapSack(W - peso,items), knapSack(W, items));
-//      }
-// }
-
 int main() {
 
     int n = 0;
@@ -85,23 +68,5 @@ int main() {
             cout << el.id << " ";
     }
 
-    // //ordenacao dos itens
-    // sort(items.begin(), items.end(), [](auto& i, auto& j){return i.valor > j.valor;});
-    // peso = 0;
-    // valor = 0;
-    // for(auto& el : items){
-    //    if (el.peso + peso <= W) {
-    //        mochila.push_back(el);
-    //        peso = peso + el.peso;
-    //        valor = valor + el.valor;
-    //    }
-    // }
-    //essa ordenacao é necessaria para atender apenas o solicitado. 
-    // sort(mochila.begin(), mochila.end(), [](auto& i , auto& j){return i.id < j.id;});
-    // cout << peso << " " << valor << " 0" << "\n";
-
-    // for(auto& el: mochila) {
-    //     cout << el.id << " ";
-    // }
     return 0;
 }
